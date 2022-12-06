@@ -1,0 +1,42 @@
+*{
+	border: none;
+	background-color: transparent;
+	background: transparent;
+	padding: 0;
+	margin: 0;
+	color: #fff;
+	font-family: Inter;
+	font-size: 12px;
+}
+
+#centralwidget, #tableBtn, #mainBodyContent, #QLineEdit {
+	background-color: #242424;
+}
+
+#header, #mainBody, #footer {
+	background-color: #1e1e1e;
+}
+
+#pushButton{
+	border: 1px solid #716af2;
+    border-radius: 19px;
+    text-align: center;
+}
+
+#addUser{
+	border: 1px solid #716af2;
+    border-radius: 10px;
+    text-align: center;
+}
+
+QPushButton{
+	text-align: left;
+    padding: 5px 10px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+QLineEdit {
+	padding: 5px 10px;
+	border-radius: 5px;
+}

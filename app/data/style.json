@@ -1,0 +1,78 @@
+{
+    "ShowLogs": true,
+    "QMainWindow": [
+        {
+            "tittle": "NuralievPasswordManager"
+        }
+    ],
+    "QSettings": [
+        {
+            "ThemeSettings": [
+                {
+                    "CustomTheme": [
+                        {
+                            "Background-color": "#1e1e1e",
+                            "Text-color": "#fff",
+                            "Accent-color": "#372ee5",
+                            "Theme-name": "Темно-Синяя",
+                            "Icons-color": "#fff",
+                            "Default-Theme": true
+                        }
+                    ]
+                }
+            ],
+            "AppSettings": {
+                "OrginizationName": "Nuraliev",
+                "ApplicationName": "PasswordManager",
+                "OrginizationDormain": "Nuraliev.org"
+            }
+        }
+    ],
+    "QPushButtonGroup":
+        [{
+            "Buttons": [
+                "tableBtn",
+                "settingsBtn",
+                "aboutBtn"
+            ],
+            "Style":[{
+                "Active": "background-color: #242424; border-left:3px solid #cc5bce; font-weight: bold;",
+                "NotActive": "background-color: transparent; border: none"
+            }]
+        }],
+        "QStackedWidget":[
+            {
+                "name":"mainPages",
+                "transitionAnimation":[
+                    {
+                        "fade":[
+                            {
+                                "active": false,
+                                "duration": 250,
+                                "easingCurve": "OutQuart"
+                            }
+                        ],
+                        "slide":[
+                            {
+                                "active":true,
+                                "duration": 250,
+                                "direction": "horizontal",
+                                "easingCurve": "OutQuart"
+                            }
+                        ]
+                    }
+                ],
+                "navigation":[
+                    {
+                        "navigationButtons":[
+                            {
+                                "tableBtn": "tablePage",
+                                "settingsBtn": "settingsPage",
+                                "aboutBtn": "aboutPage"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+}
